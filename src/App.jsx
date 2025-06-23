@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import About from '../components/About';
 
 
 function App() {
@@ -16,12 +17,20 @@ function App() {
 
   return (
     <div>
-      <div className='h-screen flex items-center justify-center'>
+
+      <div className='hero h-screen flex items-center justify-center'>
         <h1 className='text-4xl font-mono'>
           Hello, I'm Yuri.<br />
           I'm a full stack web developer.
         </h1>
       </div>
+
+      <div>
+        <About/>
+      </div>
+
+
+
       <button className='p-2 hover:bg-gray-400 border-2 md:border-solid rounded font-mono' onClick={toggleDarkMode}>
         Toggle Theme
       </button>
