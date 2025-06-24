@@ -50,10 +50,18 @@ function App() {
         <Contact />
       </div>
 
-
-      <button className='p-2 hover:bg-gray-400 border-2 md:border-solid rounded font-mono' onClick={toggleDarkMode}>
-        Toggle Theme
-      </button>
+      <div className="flex justify-center space-x-4">
+        <button className='p-2 hover:bg-gray-400 border-2 md:border-solid rounded font-mono' onClick={toggleDarkMode}>
+          Toggle Theme
+        </button>
+        <a
+            href="/YURI BYCHKOV - RESUME.pdf"
+            target="_blank"
+            className="p-2 hover:bg-gray-400 border-2 md:border-solid rounded font-mono"
+        >
+            View Resume
+        </a>
+      </div>
 
     </div>
   )

@@ -9,13 +9,14 @@ function Contact() {
     }
     return (
         <div className="flex flex-col items-center justify-center min-h-screen">
+            <h1 className="text-4xl font-bold mb-10 text-center md:text-center font-mono">Contact</h1>
+            <p className="font-mono">Have a question or want to work together? Leave your details and I'll get back to you as soon as possible.</p>
             <form 
                 onSubmit={handleSubmit} 
                 action="https://formspree.io/f/xgvypeey" 
                 method="POST" 
                 className="p-6 w-full max-w-sm"
             >
-                <h2 className="text-2xl font-bold font-mono mb-4 text-center">Contact Me</h2>
                 <div className="mb-4">
                     <input
                         className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-500 leading-tight focus:outline-none focus:shadow-outline"
