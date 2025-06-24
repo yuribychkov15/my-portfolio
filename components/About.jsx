@@ -2,7 +2,7 @@ function About() {
 
     return (
         // profile image and about myself
-        <section className="about mb-10">
+        <section className="about mb-40">
             <h1 className="text-4xl font-bold mb-6 text-center md:text-center font-mono">About</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex flex-col justify-center items-center"> 
