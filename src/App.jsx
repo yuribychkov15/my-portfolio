@@ -4,7 +4,7 @@ import { useIsVisible } from '../hooks/isVisible';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Projects from '../components/Projects';
-
+import Contact from '../components/Contact';
 
 function App() {
 
@@ -28,6 +28,9 @@ function App() {
   const ref3 = useRef();
   const isVisible3 = useIsVisible(ref3)
 
+  const ref4 = useRef();
+  const isVisible4 = useIsVisible(ref4)
+
   return (
     <div>
 
@@ -41,6 +44,10 @@ function App() {
 
       <div ref={ref3} className={`transition-opacity ease-in duration-700 ${isVisible3 ? "opacity-100" : "opacity-0"}`}>
         <Projects />
+      </div>
+
+      <div ref={ref4} className={`transition-opacity ease-in duration-700 ${isVisible4 ? "opacity-100" : "opacity-0"}`}>
+        <Contact />
       </div>
 
 
