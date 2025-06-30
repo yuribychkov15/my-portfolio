@@ -131,8 +131,9 @@ function App() {
           Toggle Theme
         </button>
         <a
-            href="/my-portfolio/YURI BYCHKOV - RESUME.pdf"
+            href={`${process.env.PUBLIC_URL}/YURI BYCHKOV - RESUME.pdf`}
             target="_blank"
+            rel="noopener noreferrer"
             className="p-2 hover:bg-gray-400 border-2 md:border-solid rounded font-mono"
         >
             View Resume
