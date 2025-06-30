@@ -7,7 +7,7 @@ function About() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex flex-col justify-center items-center"> 
                     <img 
-                        src="./assets/DSC01953.jpg"
+                        src="./public/assets/DSC01953.jpg"
                         className="w-64 h-64 rounded-full object-cover mb-10"
                     />
                     <h2 className="font-mono">
