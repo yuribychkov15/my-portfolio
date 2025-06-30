@@ -11,9 +11,10 @@ function About() {
                         className="w-64 h-64 rounded-full object-cover mb-10"
                     />
                     <h2 className="font-mono">
-                        Fully committed to the philosophy of life-long learning, I’m a full stack developer with a deep passion for JavaScript, React and all things web development. 
-                        The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development. 
-                        When I’m not at my computer I like to spend my time reading, keeping fit and playing soccer.
+                    I’m a full stack developer who genuinely loves learning and exploring new ideas, both in and outside of tech. 
+                    What draws me to web development is the perfect mix of creativity and logic—it’s a space where there’s always something new to build or improve. 
+                    I have a particular passion for JavaScript, React, and the dynamic nature of the modern web, and I find real joy in solving problems and bringing ideas to life through code. 
+                    Outside of work, I try to keep a good balance—I enjoy reading, staying active, and playing soccer whenever I can.
                     </h2>
                 </div>
                 <div className="grid grid-cols-3 items-center gap-x-4 sm:mt-10">
