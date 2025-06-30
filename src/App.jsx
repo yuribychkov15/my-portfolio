@@ -32,9 +32,6 @@ function App() {
   const ref4 = useRef();
   const isVisible4 = useIsVisible(ref4)
 
-  const ref5 = useRef();
-  const isVisible5 = useIsVisible(ref5)
-
   // particle component (two options)
   const heroParticlesOptions = useMemo(() => ({
     fullScreen: { enable: false },
