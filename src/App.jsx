@@ -32,6 +32,9 @@ function App() {
   const ref4 = useRef();
   const isVisible4 = useIsVisible(ref4)
 
+  const ref5 = useRef();
+  const isVisible5 = useIsVisible(ref5)
+
   // particle component (two options)
   const heroParticlesOptions = useMemo(() => ({
     fullScreen: { enable: false },
@@ -128,7 +131,7 @@ function App() {
           Toggle Theme
         </button>
         <a
-            href="/YURI BYCHKOV - RESUME.pdf"
+            href="/my-portfolio/YURI BYCHKOV - RESUME.pdf"
             target="_blank"
             className="p-2 hover:bg-gray-400 border-2 md:border-solid rounded font-mono"
         >
